@@ -26,6 +26,21 @@
       "alt": "Secure connection",
       "width": 150,
       "height": 62
+    },
+    {
+      "src": "/img/uploads/selo1.png"
+    },
+    {
+      "src": "/img/uploads/selo2.png"
+    },
+    {
+      "src": "/img/uploads/selo3.png"
+    },
+    {
+      "src": "/img/uploads/selo4.png"
+    },
+    {
+      "src": "/img/uploads/selo5.png"
     }
   ],
   "payment_methods": {

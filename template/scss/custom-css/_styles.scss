@@ -148,60 +148,6 @@
   h1, h2, h3, h4, h5, h6, p, small, b, strong, em, span, div, s {
     font-family: 'Lato', sans-serif !important;
   }
-  .product-card__name {
-    font-size: 26px !important;
-    font-weight: bold;
-    text-align: center;
-  }
-
-  .product-card__prices {
-    text-align: center;
-    .prices__value {
-      font-size: 32px !important;
-    }
-  }
-
-  .product-card__buy.fade {
-    opacity: 1 !important;
-    display: flex;
-    @media(max-width: 767px) {
-      flex-direction: column;
-    }
-    button.btn.btn-primary.btn-block {
-      text-transform: uppercase;
-      font-size: 16px;
-      font-weight: bold;
-      background-color: #FEC81B;
-      border-color: #fec81b;
-      border-radius: 0;
-      color: #000;
-      @media(min-width: 992px) {
-        width: 50% !important;
-      }
-    }
-  }
-
-.products-carousel__item:hover {
-  border: 1px solid #000;
-}
-
-.info-bar__item {
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  .rounded-icon {
-    padding-top: unset !important;
-  }
-  h3 {
-    font-size: 16px;
-    font-weight: 700;
-  }
-}
-
-.info-bar__text {
-  margin-top: -10px;
-}
 
 .banners-grid.opt-2 .col-12 {
   text-align: center;

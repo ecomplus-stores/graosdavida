@@ -35,6 +35,38 @@
       "page": 1
     },
     {
+      "type": "text-description",
+      "title": "O que Dizem Sobre Nós",
+      "description": ""
+    },
+    {
+      "type": "review-carousel",
+      "autoplay": 9000,
+      "title": "Depoimentos de clientes reais, certificados pelo Google",
+      "reviews": [
+        {
+          "nome": "Roberta Barone",
+          "texto": "Adoro a granola Grãos da Vida! Sabor incrível, textura crocante e cheia de ingredientes saudáveis. Feita por uma nutricionista muito eficaz que reuni sabor e nutrição nos alimentos. Minhas refeições ficaram muito mais gostosas desde que incluí na minha rotina, seja no café da manhã ou no almoço ou no lanche. Recomendo a todos que buscam uma opção nutritiva e deliciosa para variar o cardápio !"
+        },
+        {
+          "nome": "Aline Rabelo",
+          "texto": "A granola Grãos da Vida é simplesmente a mais saborosa e saudável do world. Sempre falei isso para a minha querida amiga Clara, pois ela tem o dom de fazer comidas extremamente saborosas e saudáveis, quando provei a sua granola me apaixonei e não consegui comer outras, pois não chegavam aos pés da dela e com isso, pedia para ela, que passasse a vender a granola pois já fazia parte da minha rotina diária . Grãos da Vida, são granolas saborosas e de paladar único. Cada blend de granola combina com um alimento diferente fazendo com que as refeições da minha casa ganhe mais cor e sabor. Amamos Grãos da Vida"
+        },
+        {
+          "nome": "Sabrina",
+          "texto": "Nossa família é apaixonada pela Granola Grãos da Vida! São crocantes e deliciosas! E eu como mãe fico muito feliz em poder oferecer aos meus filhos um alimento tão saudável e nutritivo!"
+        },
+        {
+          "nome": "Henrique Silva",
+          "texto": "Super indico. Comprei em jm dia e chegou no outro. Entrega super rápida. Quanto ao produto é de excelente qualidade. Deliciosa."
+        },
+        {
+          "nome": "Taissa",
+          "texto": "Finalmente a granola mais gostosa do mundo está de volta. Eu que sou uma cliente que acompanhou desde o início, fico muito feliz! Na minha opinião realmente é a melhor granola, nunca experimentei nada parecido. Por isso torcia tanto por esse retorno… Desejo que a Grãos da Vida tenha sempre muito sucesso e continue crescendo e fazendo a alegria dos seus fiéis clientes!!!"
+        }
+      ]
+    },
+    {
       "type": "page-title",
       "title": "Granolas Grãos da Vida",
       "description": ""

@@ -14,6 +14,206 @@
     }
 }
 
+
+Filter changed files
+ 9 changes: 9 additions & 0 deletions9  
+storefront.webpack.js
+@@ -0,0 +1,9 @@
+const path = require('path')
+
+module.exports = () => ({
+  resolve: {
+    alias: {
+      './base-config': path.resolve(__dirname, 'template/js/netlify-cms/base-config')
+    }
+  }
+})
+ 98 changes: 98 additions & 0 deletions98  
+template/js/netlify-cms/base-config/index.js
+@@ -0,0 +1,98 @@
+import getSections from "@ecomplus/storefront-template/template/js/netlify-cms/base-config/sections"
+import getSettings from "@ecomplus/storefront-template/template/js/netlify-cms/base-config/collections/settings"
+import getLayout from "@ecomplus/storefront-template/template/js/netlify-cms/base-config/collections/layout"
+import getPages from "@ecomplus/storefront-template/template/js/netlify-cms/base-config/collections/pages"
+import getBlogPosts from "@ecomplus/storefront-template/template/js/netlify-cms/base-config/collections/blog-posts"
+import getExtraPages from "@ecomplus/storefront-template/template/js/netlify-cms/base-config/collections/extra-pages"
+import getWidgets from "@ecomplus/storefront-template/template/js/netlify-cms/base-config/collections/widgets"
+
+export default options => {
+  options.sections = getSections(options).concat([
+    {
+        label: "Grid de Avaliações",
+        name: "review-carousel",
+        widget: "object",
+        icon: "https://api.iconify.design/bi:grid.svg",
+        fields: [
+            {
+                label: "Avaliações",
+                name: "reviews",
+                widget: "list",
+                fields: [
+                    {
+                        label: "Imagem",
+                        name: "img",
+                        widget: "image",
+                        required: false
+                    },
+                    {
+                        label: "Nome",
+                        required: false,
+                        name: "nome",
+                        widget: "string"
+                    },
+                    {
+                        label: "Cidade",
+                        required: false,
+                        name: "cidade",
+                        widget: "string"
+                    },
+                    {
+                        label: "Texto de avaliação",
+                        required: false,
+                        name: "texto",
+                        widget: "string"
+                    }
+                ]
+            },
+            {
+                label: "Avaliações autoplay",
+                name: "autoplay",
+                hint: 'Troca automática de avaliações, defina 0 para desabilitar autoplay',
+                min: 0,
+                step: 1000,
+                default: 9000,
+                widget: 'number'
+            },
+            {
+                name: "title",
+                label: "Título da estante de depoimentos",
+                widget: 'string'
+            }
+        ]
+    }
+  ])
+
+  return {
+    backend: {
+      name: "git-gateway",
+      branch: "master",
+      commit_messages: {
+        create: "Create {{collection}} “{{slug}}”",
+        update: "Update {{collection}} “{{slug}}”",
+        delete: "Delete {{collection}} “{{slug}}”",
+        uploadMedia: "Upload “{{path}}”",
+        deleteMedia: "[skip ci] Delete “{{path}}”",
+        openAuthoring: "{{message}}"
+      }
+    },
+    logo_url: "https://ecom.nyc3.digitaloceanspaces.com/storefront/cms.png",
+    locale: "pt",
+    load_config_file: Boolean(window.CMS_LOAD_CONFIG_FILE),
+    media_folder: `${options.baseDir}template/public/img/uploads`,
+    public_folder: "/img/uploads",
+    slug: {
+      encoding: "ascii",
+      clean_accents: true,
+      sanitize_replacement: "-"
+    },
+    collections: [
+      getSettings(options),
+      getLayout(options),
+      getPages(options),
+      getBlogPosts(options),
+      getExtraPages(options),
+      getWidgets(options)
+    ]
+  }
+}
+ 83 changes: 83 additions & 0 deletions83  
+template/pages/@/sections/review-carousel.ejs
+@@ -0,0 +1,83 @@
+<%
+let reviews = opt.reviews
+const { title } = opt
+if (reviews && reviews.length) {
+  reviews = reviews.sort((a, b) => {
+    if (a.name) {
+      if (b.name) {
+        return -1
+      }
+    } else if (b.name) {
+      return 1
+    }
+    return 0
+  })
+  %>
+  <section class="brands-carousel container reviews">
+    <% if (title) { %>
+      <h4 class="products-carousel__title"><%= title %></h4>
+    <% } %>
+    
+    <div
+      class="glide"
+      data-autoplay="<%= opt.autoplay %>"
+      data-per-view="4"
+      data-per-view-md="4"
+      data-per-view-sm="3"
+      data-per-view-xs="1"
+    >
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides brands-carousel__list">
+          <% reviews.forEach(({ nome, cidade, img, texto }) => { %>
+            <li class="glide__slide brands-carousel__item">
+              <div class="depoimento-box">
+                <div class="title-client-avk">
+                  <% if (img) { %>
+                    <img src="<%= img %>" alt="<%= nome %>" loading="lazy" width="50" height="50">
+                  <%} %>
+                  <% if (nome && nome.length) { %>
+                    <p><%= nome %></p> 
+                  <%} %>
+                  <% if (cidade && cidade.length) { %>
+                    <small><%= cidade %></small> 
+                  <%} %>           
+                </div>
+                <% if (texto && texto.length) { %>
+                  <h5><%= texto %></h5>
+                <%} %>
+            </div>
+            </li>
+          <% }) %>
+        </ul>
+        <% if (reviews.length > 3) { %>
+          <div
+            class="glide__arrows glide__arrows--outer"
+            data-glide-el="controls"
+          >
+            <button
+              class="btn glide__arrow glide__arrow--left"
+              data-glide-dir="<"
+              aria-label="<%= _.dictionary('previous') %>"
+            >
+              <i class="i-arrow-left"></i>
+            </button>
+            <button
+              class="btn glide__arrow glide__arrow--right"
+              data-glide-dir=">"
+              aria-label="<%= _.dictionary('next') %>"
+            >
+              <i class="i-arrow-right"></i>
+            </button>
+          </div>
+        <% } %>
+      </div>
+    </div>
+  </section>
+  <%
+}
+%>
+ 68 changes: 68 additions & 0 deletions68  
+template/scss/custom-css/_styles.scss
+@@ -1 +1,69 @@
+// Add your custom CSS here.
 .depoimentos.banner-wrapper .depoimento-box {
     margin: 0px auto;
   }
@@ -49,7 +249,7 @@
   .title-client-avk small {
     font-size: 16px;
   }
-  
+
   @media (min-width: 1200px) {
     .depoimento-box {
       text-align: left;
@@ -68,7 +268,7 @@
       font-weight: 700;
     }
   }
-  
+
   .reviews {
     .products-carousel__title::before {
       height: 0 !important;
@@ -81,6 +281,7 @@
     }
     height: unset;
   }
+
 
   #custom-block {
     text-align: center;
@@ -315,3 +516,5 @@
     max-width: 142px;
   }
 }
+
+

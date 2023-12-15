@@ -180,12 +180,6 @@
       }
     }
   }
-.banner-slider img:hover {
-  transform: scale(1.13);
-}
-.banner-slider img {
-  transition: transform 4s ease;
-}
 
 .products-carousel__item:hover {
   border: 1px solid #000;
@@ -368,16 +362,6 @@
 
 #mobile-search-btn {
   display: none !important;
-}
-
-.glide__slides.products-carousel__list {
-  @media(max-width: 600px) {
-    display: flex;
-    flex-direction: column;
-    li {
-      flex-shrink: 1
-    }
-  }
 }
 
 @media(max-width: 600px) {

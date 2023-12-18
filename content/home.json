@@ -33,6 +33,16 @@
       "title": "Depoimentos de clientes",
       "reviews": [
         {
+          "texto": "Sou fã de carterinha das Granolas da Clara como consumidora e como endocrinologista. Gostosas, crocantes, saudáveis e bem temperadas. Seja para salada ou iogurte sempre enriquece o sabor e garante o aporte nutricional.",
+          "nome": "Juliana",
+          "img": "/img/uploads/juliana.jpg"
+        },
+        {
+          "nome": "sem nome 2"
+          "texto": "Clara e sua granola…. A melhor que eu já experimentei!! Que dom de combinar sabores e texturas, resultando numa magia de sabor incrível!  Durante a pandemia, foi uma das coisas boas, que alegrava nossos dias…",
+          "img": "/img/uploads/sem nome 2.jpg"
+        },
+        {
           "nome": "Roberta Barone",
           "texto": "Adoro a granola Grãos da Vida! Sabor incrível, textura crocante e cheia de ingredientes saudáveis. Feita por uma nutricionista muito eficaz que reuni sabor e nutrição nos alimentos.",
           "img": "/img/uploads/robertabarone.jpg"
@@ -57,28 +67,19 @@
           "img": "/img/uploads/taissa.jpg"
         },
         {
-          "texto": "Experimentei todos os sabores da granola da Clara, e todos são incríveis. Os sabores são autênticos, e os ingredientes são de muita qualidade. Os meus preferidos são a Clássica e a Low Carb <3  As combinações que já fizemos são infinitas. Amo comer com iogurte, frutas e com açaí! Fica tudo perfeito!   A nossa família é vegetariana, então a granola da Clara tem também a grande qualidade de ser bem proteica.  Com certeza somos clientes fidelizados!",
+          "texto": "Experimentei todos os sabores da granola da Clara, e todos são incríveis. Os sabores são autênticos, e os ingredientes são de muita qualidade. Os meus preferidos são a Clássica e a Low Carb <3",
           "nome": "Luiza Maris",
           "img": "/img/uploads/luizamaris.jpg"
         },
         {
-          "texto": "Sou fã de carterinha das Granolas da Clara como consumidora e como endocrinologista. Gostosas, crocantes, saudáveis e bem temperadas. Seja para salada, seja para o iogurte sempre enriquece o sabor e garante o aporte nutricional.",
-          "nome": "Juliana",
-          "img": "/img/uploads/juliana.jpg"
-        },
-        {
-          "texto": "Estou muito feliz com o retorno das granolas Grãos da Vida!  Durante o período em que eles suspenderam a produção, eu testei todas as granolas do mercado e definitivamente nenhuma se compara as granolas do Grão da Vida. Já fiz minha encomenda e meu Natal certamente será recheado este ano! Obrigada Grãos da Vida! Minha família está muito feliz com o retorno de vocês!",
+          "texto": "Durante o período em que eles suspenderam a produção, eu testei todas as granolas do mercado e definitivamente nenhuma se compara as granolas do Grão da Vida.",
           "nome": "Flávia",
           "img": "/img/uploads/flavia.jpg"
         },
         {
-          "texto": "Depois que conheci grãos da vida nunca mais consegui comprar mais nenhuma granola. Além de deliciosas, são saudáveis e de alta qualidade. Sou fã !",
+          "texto": "Depois que conheci grãos da vida nunca mais consegui comprar mais nenhuma granola. Além de deliciosas, são saudáveis e de alta qualidade. Sou fã!",
           "nome": "sem nome",
           "img": "/img/uploads/semnome.jpg"
-        },
-        {
-          "texto": "Clara e sua granola…. A melhor que eu já experimentei!! Que dom de combinar sabores e texturas, resultando numa magia de sabor incrível!  Durante a pandemia, foi uma das coisas boas, que alegrava nossos dias…   Agora, em seu retorno, vai me ajudar muito na nova fase de vida (os 40 anos chegaram….) e com mais necessidade de cuidados, com alimentação balanceada (e gostosa!)  Boa sorte, Clara, em seu retorno! Muito sucesso!",
-          "img": "/img/uploads/sem nome 2.jpg"
         }
       ]
     }

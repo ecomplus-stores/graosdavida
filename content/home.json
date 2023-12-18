@@ -8,19 +8,19 @@
       "full_width": false,
       "slides": [
         {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-1-.png",
+          "mobile_img": "/img/uploads/banner2mobile.png",
+          "link": "/kit-degustacao"
+        },
+        {
           "img": "/img/uploads/banner.png",
           "link": "",
           "alt": "",
           "start": "",
           "end": "",
           "mobile_img": "/img/uploads/banner1mobile.png"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-1-.png",
-          "mobile_img": "/img/uploads/banner2mobile.png",
-          "link": "/kit-degustacao"
         }
       ]
     },

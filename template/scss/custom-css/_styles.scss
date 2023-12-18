@@ -65,3 +65,13 @@
     }
     height: unset;
   }
+
+.header {
+    &__row--centralized-logo {
+        display: flex;
+        justify-content: space-between;
+        .header__buttons {
+            display: flex;
+        }
+    } 
+}

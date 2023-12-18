@@ -13,7 +13,14 @@
           "alt": "",
           "start": "",
           "end": "",
-          "mobile_img": ""
+          "mobile_img": "/img/uploads/banner1mobile.png"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-1-.png",
+          "mobile_img": "/img/uploads/banner2mobile.png",
+          "link": "/kit-degustacao"
         }
       ]
     },
@@ -56,10 +63,6 @@
           "nome": "Sabrina",
           "texto": "Nossa família é apaixonada pela Granola Grãos da Vida! São crocantes e deliciosas! E eu como mãe fico muito feliz em poder oferecer aos meus filhos um alimento tão saudável e nutritivo!",
           "img": "/img/uploads/sabrina.jpg"
-        },
-        {
-          "nome": "Henrique Silva",
-          "texto": "Super indico. Comprei em jm dia e chegou no outro. Entrega super rápida. Quanto ao produto é de excelente qualidade. Deliciosa."
         },
         {
           "nome": "Taissa",

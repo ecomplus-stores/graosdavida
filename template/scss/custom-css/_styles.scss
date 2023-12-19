@@ -75,3 +75,13 @@
         }
     } 
 }
+
+@media (min-width: 576px) {
+  .header__logo {
+    max-height: 100px !important;
+  }
+}
+
+#category-footer {
+  display: none !important;
+}

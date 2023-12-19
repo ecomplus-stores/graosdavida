@@ -1,5 +1,5 @@
 {
-  "css": "@media (min-width: 576px)\n.header__logo {\n    max-height: 100px !important;\n}\nh5 {\n      font-weight: 300;\n      font-size: 1.1rem;\n}",
-  "html_head": "",
+  "css": "@media (min-width: 576px)\n.header__logo {\n    max-height: 100px !important;\n}\nh5 {\n      font-weight: 300;\n      font-size: 1.1rem;\n}\n\nfont-family: 'Oswald', sans-serif;",
+  "html_head": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link href=\"https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap\" rel=\"stylesheet\">",
   "html_body": ""
 }

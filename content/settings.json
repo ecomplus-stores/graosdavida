@@ -1,7 +1,7 @@
 {
   "domain": "graosdavida.netlify.app",
   "currency_symbol": "R$",
-  "primary_color": "#039659",
+  "primary_color": "#4e2523",
   "theme": {
     "bootswatch": "_",
     "custom": "_"

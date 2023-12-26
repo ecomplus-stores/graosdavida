@@ -2,12 +2,12 @@
   "categories_list": {
     "featured": [],
     "random": 0,
-    "full_width": false
+    "full_width": true
   },
   "menu_all_departments": false,
   "centralized_logo": true,
   "marketing_stripe": {
-    "text": "Compre já sua granola",
+    "text": "FRETE GRÁTIS A PARTIR DE R$160 ",
     "link": "/search"
   },
   "alphabetical_order_submenu": false,

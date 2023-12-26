@@ -271,13 +271,15 @@ const hasAllDepartments = header.menu_all_departments
           <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
             <% if (hasAllDepartments) { %>
               <div class="d-inline-block">
-                 <a href="/granola-artesanal-classica" class="header__category">Clássica</a>
-                 <a href="/granola-artesanal-laranja--canela--cranberry" class="header__category">Laranja + Canela+ Cranberry</a>
-                 <a href="/granola-artesanal--low-carb-proteica-com-fitas-de-coco--raspas-de-limao-siciliano" class="header__category">Low Carb Proteica com Fitas de Coco + Raspas de Limão Siciliano</a>
-                 <a href="/granola-artesanal-chocolate-70--avela" class="header__category">Chocolate 70% + Avelã</a>
-                 <a href="/granola-salgada" class="header__category">Salgada Mix de Pimentas</a>
-                 <a href="/kit-degustacao" class="header__category">Kit Degustação</a>
-
+                <a 
+                  href="javascript:;"
+                  class="header__category"
+                  id="cd-all"
+                  onmouseover="toggleSubmenu('all', this)"
+                  onclick="toggleSubmenu('all', this)"
+                >
+                  <%= header.name_all_departments || _.dictionary('all') %>
+                </a>
                 <nav class="header__submenu header__submenu--full" id="s-all">
                   <div class="row">
                     <% _.categories.forEach(({ name, slug, parent, _id }) => { %>
@@ -314,13 +316,16 @@ const hasAllDepartments = header.menu_all_departments
             <% categories.forEach(({ slug, name, _id}) => { %>
               <% let $categoryLink %>
               <div class="d-inline-block">
-                 <a href="/granola-artesanal-classica" class="header__category">Clássica</a>
-                 <a href="/granola-artesanal-laranja--canela--cranberry" class="header__category">Laranja + Canela+ Cranberry</a>
-                 <a href="/granola-artesanal--low-carb-proteica-com-fitas-de-coco--raspas-de-limao-siciliano" class="header__category">Low Carb Proteica com Fitas de Coco + Raspas de Limão Siciliano</a>
-                 <a href="/granola-artesanal-chocolate-70--avela" class="header__category">Chocolate 70% + Avelã</a>
-                 <a href="/granola-salgada" class="header__category">Salgada Mix de Pimentas</a>
-                 <a href="/kit-degustacao" class="header__category">Kit Degustação</a>
-
+                <a
+                  href="javascript:;"
+                  class="header__category"
+                  id="cd-<%= _id %>"
+                  <%- hasMegamenu
+                    ? `onmouseover="toggleSubmenu('${slug}', this)" onclick="toggleSubmenu('${slug}', this, true)"`
+                    : `onclick="toggleSidenav('${slug}')"` %>
+                >
+                  <%= name %>
+                </a>
                 <%- $categoryLink %>
                 <%  if (slug && hasMegamenu) { %>
                   <% const subcategories = _.categories.filter(({ parent }) => parent && parent.slug === slug) %>

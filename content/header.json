@@ -1,11 +1,11 @@
 {
   "categories_list": {
     "featured": [],
-    "random": 1,
+    "random": 8,
     "full_width": true
   },
   "menu_all_departments": false,
-  "centralized_logo": true,
+  "centralized_logo": false,
   "marketing_stripe": {
     "text": "FRETE GRÁTIS A PARTIR DE R$160 ",
     "link": "/search"

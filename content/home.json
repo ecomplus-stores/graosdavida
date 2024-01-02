@@ -5,22 +5,19 @@
     {
       "type": "banner-slider",
       "autoplay": 9000,
-      "full_width": false,
+      "full_width": true,
       "slides": [
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/bannerq.png",
+          "img": "/img/uploads/imagem-do-whatsapp-de-2023-12-29-a-s-20.48.11_6da15a36.jpg",
           "mobile_img": "/img/uploads/banner2mobile-1-.png",
           "link": "/kit-degustacao"
         },
         {
-          "img": "/img/uploads/banner.png",
-          "link": "",
-          "alt": "",
           "start": "",
           "end": "",
-          "mobile_img": "/img/uploads/banner1mobile.png"
+          "img": "/img/uploads/imagem-do-whatsapp-de-2023-12-29-a-s-20.48.12_ce2f2da6.jpg"
         }
       ]
     },

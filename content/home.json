@@ -10,14 +10,15 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/imagem-do-whatsapp-de-2023-12-29-a-s-20.48.11_6da15a36.jpg",
-          "mobile_img": "/img/uploads/banner2mobile-1-.png",
+          "img": "/img/uploads/banner-desktop-01.png",
+          "mobile_img": "/img/uploads/banner-mobile-01.png",
           "link": "/kit-degustacao"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/imagem-do-whatsapp-de-2023-12-29-a-s-20.48.12_ce2f2da6.jpg"
+          "img": "/img/uploads/banner-desktop-04.png",
+          "mobile_img": "/img/uploads/banner-mobile-04.png"
         }
       ]
     },
@@ -42,7 +43,7 @@
           "img": "/img/uploads/juliana.jpg"
         },
         {
-          "nome": "sem nome 2",
+          "nome": "Manuela Borges",
           "texto": "Clara e sua granola…. A melhor que eu já experimentei!! Que dom de combinar sabores e texturas, resultando numa magia de sabor incrível! ",
           "img": "/img/uploads/sem nome 2.jpg"
         },
@@ -78,7 +79,7 @@
         },
         {
           "texto": "Depois que conheci grãos da vida nunca mais consegui comprar mais nenhuma granola. Além de deliciosas, são saudáveis e de alta qualidade. Sou fã!",
-          "nome": "sem nome",
+          "nome": "Paloma Di Piero",
           "img": "/img/uploads/semnome.jpg"
         }
       ]

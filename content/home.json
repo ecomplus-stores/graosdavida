@@ -1,5 +1,5 @@
 {
-  "meta_title": "Granolas Grãos da Vida",
+  "meta_title": "Granolas Artesanais Grãos da Vida",
   "meta_description": "Descubra granolas artesanais criadas pela nutricionista Clara Senis, feitas com ingredientes selecionados e combinações inteligentes para a sua saúde. Ricas em fibras, nutrientes e óleos naturais, nossas granolas são livres de conservantes, corantes e aromatizantes artificiais, garantindo nutrição para toda a família.",
   "sections": [
     {
@@ -19,7 +19,7 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "collection_id": null,
+      "collection_id": "66d9fdbefc4aac27a2c7c312:categories:Granolas:/granolas",
       "sort": "offers",
       "title": "Nossas granolas!",
       "headless": false,

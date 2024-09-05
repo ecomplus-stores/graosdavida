@@ -1,8 +1,10 @@
 {
   "categories_list": {
     "featured": [
-      "/granolas?Granolas",
-      "/mais-vendidas?Mais vendidas",
+      "/classicas?Clássicas",
+      "/low-carb-e-proteicas?Low Carb e Proteicas",
+      "/chocolate?Chocolate",
+      "/salgadas?Salgadas",
       "/kits-e-combos?Kits e Combos"
     ],
     "random": 8,

@@ -13,8 +13,8 @@
   "menu_all_departments": false,
   "centralized_logo": true,
   "marketing_stripe": {
-    "text": "Compre nosso combo com 10% de desconto e ganhe FRETE GRÁTIS para sudeste a partir R$ 160,00",
-    "link": "/combo-granolas"
+    "text": "FRETE GRÁTIS para sudeste a partir R$ 159,90",
+    "link": "https://graosdavida.com.br/granolas"
   },
   "alphabetical_order_submenu": false,
   "name_all_departments": "",

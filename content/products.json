@@ -2,7 +2,7 @@
   "sections": [
     {
       "type": "custom-html",
-      "html": "<h1>Use o cupom: DIADOCLIENTE e GANHE 20% de DESCONTO</h1>"
+      "html": "<h5>Use o cupom: <strong style=\"background-color: yellow;\"> DIADOCLIENTE </strong> e GANHE 20% de DESCONTO</h5>"
     },
     {
       "type": "breadcrumbs",

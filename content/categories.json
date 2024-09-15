@@ -19,6 +19,10 @@
     {
       "type": "document-description",
       "enabled": true
+    },
+    {
+      "type": "custom-html",
+      "html": "<h5>Use o cupom: <strong style=\"background-color: yellow;\"> DIADOCLIENTE </strong> e GANHE 20% de DESCONTO</h5>"
     }
   ]
 }

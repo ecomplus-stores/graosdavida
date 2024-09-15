@@ -1,6 +1,10 @@
 {
   "sections": [
     {
+      "type": "custom-html",
+      "html": "<h1>Use o cupom: DIADOCLIENTE e GANHE 20% de DESCONTO</h1>"
+    },
+    {
       "type": "breadcrumbs",
       "enabled": true
     },

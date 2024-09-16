@@ -5,6 +5,12 @@
       "html": "<h4 style=\"text-align: center;\">PRORROGADO DIA DO CLIENTE <br> Use o cupom: <strong style=\"background-color: yellow; text-align: center;\"> DIADOCLIENTE </strong> e GANHE 20% de DESCONTO</h4>"
     },
     {
+      "type": "offers-timer",
+      "max_hours": 24,
+      "start": "2024-09-16T11:04:04.607Z",
+      "end": "2024-09-17T02:59:04.624Z"
+    },
+    {
       "type": "breadcrumbs",
       "enabled": true
     },

@@ -13,6 +13,13 @@
           "img": "/img/uploads/banner-desktop-01.png",
           "mobile_img": "/img/uploads/banner-mobile-01.png",
           "link": "/kit-degustacao"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-desktop-01.png",
+          "mobile_img": "/img/uploads/banner-mobile-01.png",
+          "link": "https://graosdavida.com.br/kit-degustacao-granolas"
         }
       ]
     },

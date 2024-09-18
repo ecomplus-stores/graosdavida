@@ -27,9 +27,6 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/mini-banner-1.jpg"
-        },
-        {
           "img": "/img/uploads/mini-banner-2.jpg"
         },
         {

@@ -6,7 +6,32 @@
   "links_1": {
     "list_pages": true,
     "title": "Páginas",
-    "list": []
+    "list": [
+      {
+        "text": "Sobre Nós",
+        "url": "https://graosdavida.com.br/pages/sobre-nos"
+      },
+      {
+        "text": "Condições de entrega",
+        "url": "https://graosdavida.com.br/pages/entrega"
+      },
+      {
+        "text": "Dúvidas Frequentes",
+        "url": "https://graosdavida.com.br/pages/faq"
+      },
+      {
+        "url": "https://graosdavida.com.br/pages/privacidade",
+        "text": "Política de Privacidade"
+      },
+      {
+        "url": "https://graosdavida.com.br/pages/trocas",
+        "text": "Trocas e Devoluções"
+      },
+      {
+        "text": "Termos de Serviço",
+        "url": "https://graosdavida.com.br/pages/termos"
+      }
+    ]
   },
   "links_2": {
     "list_categories": true,
@@ -54,4 +79,3 @@
   },
   "credits": ""
 }
-

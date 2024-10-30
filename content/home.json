@@ -56,6 +56,13 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
+      "title": "Kit Granola Favorita"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
       "collection_id": "66da03a4fc4aac27a2c7d074:categories:Kits e Combos:/kits-e-combos",
       "title": "Experimente e Economize 🤩"
     },

@@ -56,7 +56,8 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "title": "Kit Granola Favorita"
+      "title": "Kit Granola Favorita",
+      "collection_id": "67222d1486609e53f86218a6:collections:Kits:/kits-favorita"
     },
     {
       "type": "collection-shelf",

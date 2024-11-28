@@ -1,11 +1,11 @@
 {
   "shipping": {
-    "show": true,
+    "show": false,
     "text": "Para a Região Sudeste nas compras acima de R$ 159,90",
     "title": "Frete *Grátis"
   },
   "installments": {
-    "show": true,
+    "show": false,
     "text": "Parcele sua compras sem juros",
     "title": "2x sem juros"
   },
@@ -14,7 +14,7 @@
     "text": "Não gostou? A primeira troca é gratuita"
   },
   "promo": {
-    "show": true,
+    "show": false,
     "text": "Ganhe desconto no seu primeiro pedido",
     "title": "Use o cupom: BOASVINDAS"
   }

@@ -111,6 +111,13 @@
           "img": "/img/uploads/semnome.jpg"
         }
       ]
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "6781031fa0c96d5393088880:collections:Granola Especial Nozes Pecã com Caramelo e Flor de Sal:/granola-especial-nozes-peca-com-caramelo-e-flor-de-sal"
     }
   ]
 }

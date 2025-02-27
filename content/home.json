@@ -45,6 +45,11 @@
       "collection_id": "658aeb5e2cd6b65959ea0dcc:categories:Mais vendidas:/mais-vendidas"
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/img_3731-1-.png",
+      "link": "https://forms.gle/UpYSsLgQtFCBJrpd8"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,

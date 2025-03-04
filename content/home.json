@@ -6,7 +6,15 @@
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": true,
-      "slides": []
+      "slides": [
+        {
+          "start": "2025-03-04T14:54:29.270Z",
+          "end": "",
+          "img": "/img/uploads/banner-desktop-01.png",
+          "link": "https://graosdavida.com.br/kit-degustacao-granolas",
+          "mobile_img": "/img/uploads/banner-mobile-01.png"
+        }
+      ]
     },
     {
       "type": "banners-grid",

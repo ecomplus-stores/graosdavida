@@ -6,7 +6,14 @@
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": true,
-      "slides": []
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-desktop-01.png",
+          "mobile_img": "/img/uploads/banner-mobile-01.png"
+        }
+      ]
     },
     {
       "type": "banners-grid",

@@ -17,6 +17,10 @@
       "enabled": true
     },
     {
+      "type": "buy-together",
+      "enabled": false
+    },
+    {
       "type": "related-products",
       "title": "Produtos relacionados",
       "enabled": true

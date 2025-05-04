@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.a7a1d06d1163f9236f808e2ea2911978.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.7e0bed3bf1ed9b1a9b8f1ed6407aff47.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.ac2b3f3c38721c16cd3da3a9108913e2.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.fa031cbdf9eb5a788dd84f32cd04d70c.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.1ba34dc16290528aca4406de8a4e4071.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Grãos da Vida",
+  "short_name": "Grãos da Vida",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "O bom da VIDA é comer gostoso e saudável!",
+  "background_color": "#ffffff",
+  "theme_color": "#4e2523"
+}

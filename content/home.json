@@ -24,15 +24,8 @@
       ]
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/mini-banner-2.jpg"
-        },
-        {
-          "img": "/img/uploads/mini-banner-3.jpg"
-        }
-      ]
+      "type": "custom-html",
+      "html": "<section style=\"padding:40px 20px; background-color:#f9f9f9;\">\n  <div style=\"max-width:1200px; margin:0 auto; display:flex; flex-direction:column; align-items:center; text-align:center;\">\n    <img src=\"https://graosdavida.com.br/img/uploads/graos_poralexwoloch-4829-1-.jpg\" alt=\"Clara Senis\" style=\"width:120px; height:120px; border-radius:50%; object-fit:cover; margin-bottom:20px;\">\n    <h2 style=\"font-size:28px; margin:0 0 20px;\">Da Nutri para você!</h2>\n    <p style=\"font-size:16px; line-height:1.5; margin:0 0 10px;\">A Granola Grãos da Vida foi criada por Clara Senis, uma nutricionista apaixonada por nutrição familiar. Mãe de 5 filhos e casada, ela idealizou esse produto com o conceito de \"comer gostoso e saudável\".</p>\n    <p style=\"font-size:16px; line-height:1.5; margin:0 0 10px;\">A Grãos da Vida reflete todo o seu conhecimento e dedicação à alimentação saudável, criando uma experiência única para quem busca praticidade e bem-estar. Feita especialmente para quem quer cuidar da saúde sem abrir mão do sabor.</p>\n      </div>\n</section>\n"
     },
     {
       "type": "collection-shelf",

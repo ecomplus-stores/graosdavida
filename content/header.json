@@ -14,8 +14,8 @@
   "menu_all_departments": false,
   "centralized_logo": false,
   "marketing_stripe": {
-    "text": "FRETE GRÁTIS nas compras acima de R$ 159,90 para o sudeste",
-    "link": ""
+    "text": "FRETE GRÁTIS Sudeste acima de R$ 159,90",
+    "link": "https://graosdavida.com.br/pages/entrega"
   },
   "alphabetical_order_submenu": false,
   "name_all_departments": "",

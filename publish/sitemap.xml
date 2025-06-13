@@ -2,96 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>https://graosdavida.com.br/mais-vendidas</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://graosdavida.com.br/mais-saudaveis-e-proteicas</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://graosdavida.com.br/todos-os-produtos</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://graosdavida.com.br/granola-artesanal</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://graosdavida.com.br/kits-granola-artesanal-sem-conservante</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://graosdavida.com.br/classicas</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://graosdavida.com.br/low-carb-e-proteicas</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://graosdavida.com.br/chocolate</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://graosdavida.com.br/salgadas</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://graosdavida.com.br/promocao-de-granolas</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://graosdavida.com.br/especial-de-natal</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://graosdavida.com.br/assinatura</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://graosdavida.com.br/cupom-de-desconto</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://graosdavida.com.br/kits-favorita</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://graosdavida.com.br/granola-especial-nozes-peca-com-caramelo-e-flor-de-sal</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
       <loc>https://graosdavida.com.br/granola-artesanal-classica</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
@@ -266,9 +176,99 @@
     </url>
   
     <url>
-      <loc>https://graosdavida.com.br/kit-chocolate-com-pimenta-c887</loc>
+      <loc>https://graosdavida.com.br/kit-sensacoes</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
+    </url>
+  
+    <url>
+      <loc>https://graosdavida.com.br/mais-vendidas</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://graosdavida.com.br/mais-saudaveis-e-proteicas</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://graosdavida.com.br/todos-os-produtos</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://graosdavida.com.br/granola-artesanal</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://graosdavida.com.br/kits-granola-artesanal-sem-conservante</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://graosdavida.com.br/classicas</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://graosdavida.com.br/low-carb-e-proteicas</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://graosdavida.com.br/chocolate</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://graosdavida.com.br/salgadas</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://graosdavida.com.br/promocao-de-granolas</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://graosdavida.com.br/especial-de-natal</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://graosdavida.com.br/assinatura</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://graosdavida.com.br/cupom-de-desconto</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://graosdavida.com.br/kits-favorita</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://graosdavida.com.br/granola-especial-nozes-peca-com-caramelo-e-flor-de-sal</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
     </url>
   
     <url>
@@ -338,13 +338,13 @@
     </url>
   
     <url>
-      <loc>https://graosdavida.com.br/admin/index</loc>
+      <loc>https://graosdavida.com.br/app/index</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
   
     <url>
-      <loc>https://graosdavida.com.br/app/index</loc>
+      <loc>https://graosdavida.com.br/admin/index</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>

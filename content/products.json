@@ -1,7 +1,7 @@
 {
   "sections": [
     {
-      "type": "info-bar",
+      "type": "breadcrumbs",
       "enabled": true
     },
     {
@@ -11,6 +11,10 @@
         "image": "",
         "title": ""
       }
+    },
+    {
+      "type": "info-bar",
+      "enabled": true
     },
     {
       "type": "product-description",

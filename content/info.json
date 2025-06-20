@@ -1,17 +1,20 @@
 {
   "shipping": {
-    "show": false,
-    "text": "Para a Região Sudeste nas compras acima de R$ 159,90",
-    "title": "Frete *Grátis"
+    "show": true,
+    "text": "Ganhe desconto no primeira compra",
+    "title": "Cupom: BOASVINDAS",
+    "link": "https://graosdavida.com.br/promocao-de-granolas"
   },
   "installments": {
-    "show": false,
-    "text": "Parcele sua compras sem juros",
-    "title": "2x sem juros"
+    "show": true,
+    "text": "Confira as Regras",
+    "title": "Frete Grátis"
   },
   "exchange": {
-    "show": false,
-    "text": "Não gostou? A primeira troca é gratuita"
+    "show": true,
+    "text": "Produzidas pela Clara",
+    "title": "Saudável e Saborosa!",
+    "link": "https://www.instagram.com/graosdavidario/"
   },
   "promo": {
     "show": false,

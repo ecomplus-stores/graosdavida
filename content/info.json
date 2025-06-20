@@ -8,7 +8,8 @@
   "installments": {
     "show": true,
     "text": "Confira as Regras",
-    "title": "Frete Grátis"
+    "title": "Frete Grátis",
+    "link": "https://graosdavida.com.br/pages/entrega"
   },
   "exchange": {
     "show": true,

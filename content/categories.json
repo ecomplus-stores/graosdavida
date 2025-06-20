@@ -17,6 +17,10 @@
       "sort": "sales"
     },
     {
+      "type": "info-bar",
+      "enabled": true
+    },
+    {
       "type": "document-description",
       "enabled": true
     }

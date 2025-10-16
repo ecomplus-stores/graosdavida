@@ -1,14 +1,9 @@
 {
   "categories_list": {
     "featured": [
-      "/classicas?Clássicas",
-      "/low-carb-e-proteicas?Low Carb e Proteicas",
-      "/chocolate?Chocolate",
-      "/salgadas?Salgadas",
-      "/granola-laranja?Laranja + Canela+ Cranberry",
-      "/granola-simplesmente-coco-e-passas?Granola Simplesmente",
-      "/kits-granola-artesanal-sem-conservante?Kits e Combos",
-      "/promocao-de-granolas?Ofertas"
+      "/granola-artesanal?Granolas",
+      "/mais-vendidas?Mais vendidas",
+      "/kits-favorita?Kits"
     ],
     "random": 0,
     "full_width": true
@@ -28,7 +23,7 @@
   "full_width_submenu": false,
   "contacts_stripe": {
     "pages": [],
-    "phone_wpp": false,
-    "socials": false
+    "phone_wpp": true,
+    "socials": true
   }
 }

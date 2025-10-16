@@ -13,7 +13,7 @@
   "centralized_logo": false,
   "marketing_stripe": {
     "text": "FRETE GRÁTIS acima de R$159",
-    "link": "",
+    "link": "https://graosdavida.com.br/pages/entrega",
     "background": "#333333",
     "color": "#ffffff"
   },
@@ -23,12 +23,7 @@
   "desktop_megamenu": true,
   "full_width_submenu": false,
   "contacts_stripe": {
-    "pages": [
-      {
-        "title": "Nossa História",
-        "link": "https://graosdavida.com.br/pages/sobre-nos"
-      }
-    ],
+    "pages": [],
     "phone_wpp": false,
     "socials": false
   }

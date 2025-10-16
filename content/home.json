@@ -46,8 +46,10 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/img_3731-1-.png",
-      "link": "https://forms.gle/UpYSsLgQtFCBJrpd8"
+      "img": "/img/uploads/graos-da-vida-nildo-desktop.png",
+      "link": "https://graosdavida.com.br/mais-vendidas",
+      "alt": "maisvendidas",
+      "mobile_img": "/img/uploads/graos-da-vida-nildo.png"
     },
     {
       "type": "collection-shelf",
@@ -123,6 +125,11 @@
       "limit": 12,
       "page": 1,
       "collection_id": "6781031fa0c96d5393088880:collections:Granola Especial Nozes Pecã com Caramelo e Flor de Sal:/granola-especial-nozes-peca-com-caramelo-e-flor-de-sal"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/img_3731-1-.png",
+      "link": "https://forms.gle/UpYSsLgQtFCBJrpd8"
     }
   ]
 }

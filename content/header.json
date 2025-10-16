@@ -10,7 +10,7 @@
     "full_width": true
   },
   "menu_all_departments": false,
-  "centralized_logo": true,
+  "centralized_logo": false,
   "marketing_stripe": {
     "text": "Frete Grátis acima de R$159",
     "link": "https://graosdavida.com.br/pages/entrega",

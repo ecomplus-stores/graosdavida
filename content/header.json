@@ -3,7 +3,8 @@
     "featured": [
       "/granola-artesanal?Granolas",
       "/mais-vendidas?Mais vendidas",
-      "/kits-favorita?Kits"
+      "/kits-favorita?Kits",
+      "/promocao-de-granolas?Ofertas da Nutri para você!"
     ],
     "random": 0,
     "full_width": true
@@ -22,7 +23,12 @@
   "desktop_megamenu": true,
   "full_width_submenu": false,
   "contacts_stripe": {
-    "pages": [],
+    "pages": [
+      {
+        "title": "Nossa História",
+        "link": "https://graosdavida.com.br/pages/sobre-nos"
+      }
+    ],
     "phone_wpp": false,
     "socials": false
   }

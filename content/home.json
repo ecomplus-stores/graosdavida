@@ -31,6 +31,12 @@
       "page": 1
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banners-1-prancheta-1.png",
+      "link": "https://chat.whatsapp.com/GRQaLbx5I1d41QBi4d2XKw",
+      "mobile_img": "/img/uploads/banners-1-mobile_2.png"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,

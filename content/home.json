@@ -8,6 +8,12 @@
       "full_width": true,
       "slides": [
         {
+          "start": "2026-03-03T03:00:00.000Z",
+          "end": "2026-03-31T03:00:00.000Z",
+          "img": "/img/uploads/prancheta-2-1-.png",
+          "mobile_img": "/img/uploads/prancheta-1-2-1-.png"
+        },
+        {
           "start": "2025-06-16T13:29:33.069Z",
           "end": "",
           "img": "/img/uploads/graos-da-vida-nildo-desktop.png",
